@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<update xmlns="http://ns.adobe.com/air/framework/update/description/1.0">
+  <version>0.6.4</version>
+  <!-- <url>http://apprepo.adobe.com/download/couk.psyked.ImageSizer.air</url> -->
+  <url>http://www.psyked.co.uk/airapps/ImageSizer064.air</url>
+  <description><![CDATA[ImageSizer v0.6.4:
+  * Update to licensing code.
+  * Improved Splash Screen and minor bugfixes.
+ImageSizer v0.6.3:
+  * Attempted fix for application certificate errors during automatic upgrade.  Apologies if this results in failed automatic updates!
+ImageSizer v0.6.2:
+  * Updated application to remove some of the options that are never going to make version 1 of ImageSizer (be on the lookout for version 2!)
+  * Added Melrose licensing for ImageSizer.
+ImageSizer v0.6.1:
+  * Updated digital certificates to allow automatic updates to be transferred, and shelved work-in-progress.
+ImageSizer v0.6.0:
+  * Introduced themes support and added a CS4-style theme.
+ImageSizer v0.5.3.1:
+  * Fixed a bug which stopped the image quality settings from saving and loading.
+ImageSizer v0.5.3:
+  * Added functionality to export individual processed files separately, instead of restricting to exporting a folder or archive.
+ImageSizer v0.5.2.2:
+  * Fixed a bug in the output files, which stops images from being resized.
+ImageSizer v0.5.2.1:
+  * A repackaged version of 0.5.2 that should fix startup issues on the Mac
+ImageSizer v0.5.2:
+  * A huge amount of performance improvements all over the place...
+  * Backend code migration to PureMVC framework
+  * Alchemy-powered image encoding (x10 encoding speed boost!)
+  * Updated Credits and about screens
+  * Updated interface visuals
+  * System tray icons are now optional
+  * New application icons
+  * Image rotation functionality added
+ImageSizer Beta v0.4.12.3
+  * Fixes to dodgy 0.4.12.3 release (image file embeds)
+  * Updates to the opening / check for updates functionality.
+ImageSizer Beta v0.4.12.2
+  * Some slight changes to the dock / system tray icon & behaviours.
+  * Slight optimisations to screen layouts, and transitions between states.
+ImageSizer Beta v0.4.12.1
+  * Fixed an issue which prevented updated installations from starting up correctly.
+ImageSizer Beta v0.4.12
+  * Fixed issues with application being unable to close on a Mac.
+  * Improved backend classes that govern settings loading & saving.
+  * Begun development on application localisation with Lupo.
+ImageSizer Beta v0.4.11
+  * Added a button to the interface to link directly to the User documents area
+  * Added a reset window positions option to the Settings window
+  * Fixed a bug in the System tray icon menu (naming)
+  * Added an Updates information screen to the settings panel
+  * Implimented the option to turn thumbnail rendering on and off via the settings screen
+ImageSizer Beta v0.4.10
+  * Fixed an import bug with screenshots.
+  * Added the ability to import folders of files.
+  * Switched custom chrome default value from false to true.
+  * Added functionality to the System Tray Icon
+ImageSizer Beta v0.4.9.1 Prerelease
+  * Fixed an output bug on screenshots - they have now have file extensions.
+  * Fixed a tracking bug for new installations.
+ImageSizer Beta v0.4.9 Prerelease
+  * Another rewrite of the core application.
+  * Added screenshot / clipboard bitmap data detection & import capability.
+  * Added sneak-peeks of new settings in the Application Info window.
+  * Added the ability to choose between custom window chrome and OS chrome.
+  * Improved the functionality of the crop window preview window.
+  * Application skin improvements.
+ImageSizer Beta v0.4.6.9
+  * Fixed a small visual bug with some components (checkbox and scrollbars).
+ImageSizer Beta v0.4.6.8
+  * Fixed a small renaming bug, and introduced some teaser features.
+ImageSizer Beta v0.4.6.7
+  * Fixed a cross-browser Crop tool bug, and tweaked some user interface bits.
+ImageSizer Beta v0.4.6.5
+  * Fixed a bug in the dropzone, which caused the encoder to crash.
+ImageSizer Beta v0.4.6.4
+  * Fixed a bug which stopped images from being resized.
+ImageSizer Beta v0.4.6.3
+  * Switched Digital Certificate from MMTLtd to James Ford.
+ImageSizer Beta v0.4.6.2
+  * Improved memory usage in the zip file output.
+ImageSizer Beta v0.4.6.1
+  * Fixed an output bug - all temporary files were not being cleared.
+ImageSizer Beta v0.4.6
+  * Added a crop tool to ImageSizer.
+ImageSizer Beta v0.4.5.3
+  * Added credits panel and image caching to the drag and drop screen.
+ImageSizer Beta v0.4.5.2
+  * Re-introduced the ability to rename files.
+ImageSizer Beta v0.4.5.1
+  * Added export to system folder option.
+ImageSizer Beta v0.4.5
+  * Added Google Analytics message and optional tracking to application.
+ImageSizer Beta v0.4.5.1 preview
+  * Fixed a bug - the source file was being exported, instead of the resampled file!  
+ImageSizer Beta v0.4.5 preview
+  * Introduced a graphical overhaul, and a bit of a technical one too.
+ImageSizer Beta v0.4.4.9:
+  * Fixed a bug on the Exit button following the encoding process, fixed a bug that stopped the Application Info window from opening again once it was closed.
+ImageSizer Beta v0.4.4.8:
+  * Fixed a bug which stopped the application from properly closing if window effects were disabled.
+ImageSizer Beta v0.4.4.7:
+  * UI tweaks to make things more user-friendly.
+ImageSizer Beta v0.4.4.6:
+  * Fixed a bug on multi-screen setups.
+ImageSizer Beta v0.4.4.5:
+  * Google Analytics bugfixes and modification to Automatic updates.
+ImageSizer Beta v0.4.4:
+  * New icon design and basic Google Analytics integration.
+ImageSizer Beta v0.4.3.5:
+  * Added confirmation screens to Feedback panel.
+ImageSizer Beta v0.4.3:
+  * Added a Feedback screen - you can now send an email to the developers through ImageSizers' Application Settings screen.
+ImageSizer Beta v0.4.2:
+  * Important update to the configuration class - ie. it should work now!
+ImageSizer Beta v0.4.1:
+  * Removed drop shadow effect from windows to be more consistant across different operating systems
+  * Reintroduced native OS minimise, maximise and restore functionality
+  * Refactored and reimplimented ApplicationConfig class - should now be more reliable and efficent
+ImageSizer Beta v0.4.0:
+  * Introduced expanded Application settings.
+  * Saves Application window position, visual preferences
+  * Multiscreen detection
+  * Undoubtebly a few new bugs!
+ImageSizer Beta v0.3.10:
+  * Updated application to use Adobe AIR 1.5 & FP10 features.
+  * Pinched Pixel Bender from BlackBookSafe application and used them on the 
+    Application Information screen.
+  * Disabled the annoying Maximise / Minimise animations.
+  * A couple of optimisations to the application. 
+ImageSizer Beta v0.3.9:
+  * Updated Application Description.
+  * Modified Digital Signing certificate.
+ImageSizer Beta v0.3.8:
+  * Moved About and Help buttons to the titlebar.
+  * Enabled srcview across entire application.
+ImageSizer Beta v0.3.7:
+  * Added animation to Maximize and Restore functionality.
+ImageSizer Beta v0.3.6:
+  * Removed image encoding limit.
+  * Added Application Information panel.
+  * Added Maximize / Restore buttons.
+  * Expanded thumbnail view to display more file information.
+  * Modified backend code to be a little more efficient.
+  * Switched ImageSizer installation and update directories to allow it to run in 
+    parallel to original ImageSizer application.]]></description>
+</update>
